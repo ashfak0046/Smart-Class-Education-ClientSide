@@ -15,7 +15,7 @@ const AddService = () => {
       price: data.price,
       imageURL: imageURL
     };
-    const url = `https://floating-lake-40748.herokuapp.com/addService`;
+    const url = `https://young-mesa-72827.herokuapp.com/addService`;
 
 
     fetch(url, {

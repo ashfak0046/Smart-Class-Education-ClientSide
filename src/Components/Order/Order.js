@@ -24,7 +24,7 @@ const Order = () => {
       orderTime: new Date()
     };
 
-    fetch('https://floating-lake-40748.herokuapp.com/addOrder', {
+    fetch('https://young-mesa-72827.herokuapp.com/addOrder', {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify(orderDetail)

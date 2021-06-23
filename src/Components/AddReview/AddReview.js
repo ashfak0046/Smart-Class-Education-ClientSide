@@ -15,7 +15,7 @@ const AddReview = () => {
       price: data.price,
       imageURL: imageURL
     };
-    const url = `https://floating-lake-40748.herokuapp.com/addReview`;
+    const url = `https://young-mesa-72827.herokuapp.com/addReview`;
 
 
     fetch(url, {

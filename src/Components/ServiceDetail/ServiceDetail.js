@@ -15,7 +15,7 @@ const ServiceDetail = () => {
     const [service, setService] = useState({});
     useEffect(() => {
 
-        fetch('https://floating-lake-40748.herokuapp.com/service/' + serviceId)
+        fetch('https://young-mesa-72827.herokuapp.com/service/' + serviceId)
             .then(res => res.json())
             .then(data => setService(data));
     }, [serviceId])

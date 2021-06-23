@@ -12,14 +12,14 @@ import Header from '../Shared/Header/Header';
 const Home = () => {
     const [services, setService] = useState([]);
     useEffect(() => {
-        fetch('https://floating-lake-40748.herokuapp.com/services')
+        fetch('https://young-mesa-72827.herokuapp.com/services')
             .then(res => res.json())
             .then(data => setService(data))
     }, [])
 
     const [reviews, setReviews] = useState([]);
     useEffect(() => {
-        fetch('https://floating-lake-40748.herokuapp.com/reviews')
+        fetch('https://young-mesa-72827.herokuapp.com/reviews')
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [])
