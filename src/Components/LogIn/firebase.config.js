@@ -1,9 +1,9 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyAUJ3xzH0CLS7fP3CdcswdhK-cSMiKco-c",
-    authDomain: "smart-class-3a1f3.firebaseapp.com",
-    projectId: "smart-class-3a1f3",
-    storageBucket: "smart-class-3a1f3.appspot.com",
-    messagingSenderId: "489256361409",
-    appId: "1:489256361409:web:f09645f7788c145d19e340"
-  };
-  export default firebaseConfig;
+  apiKey: "AIzaSyDiS5KxKwQV855PsVvSrbQIPs4SIN5U7Ac",
+  authDomain: "e-transport-475e4.firebaseapp.com",
+  projectId: "e-transport-475e4",
+  storageBucket: "e-transport-475e4.appspot.com",
+  messagingSenderId: "754189762835",
+  appId: "1:754189762835:web:1142da929a218a8f6a5ae6"
+};
+export default firebaseConfig;
